@@ -8,6 +8,31 @@ description: Release notes and change logs for the Adobe Experience Platform Mob
 
 Please take a moment to fill out a [short survey](https://www.surveymonkey.com/r/AEPDocs) on how we can better assist you with enabling Adobe Experience Cloud solutions and services on your mobile apps.
 
+
+## May 27, 2020
+
+### iOS Griffon 1.1.1
+
+
+* Griffon extension is optimized to unregister itself, when it does not obtain session's deeplink URL within 5 seconds of app launch.
+* Fixed a bug where user is not able to disconnect when griffon attempts to reconnect with expired socket URL.
+* Support for prod, stage, qa and dev environment.
+* Griffon socket connection now authenticates against organization Id.
+* Griffon SDK attempts to seemlessly reconnect to its session on network interruptions.
+* Fixed an issue where "Connect" button does not appear in the pinpad screen on iOS version 10 and below
+* Fixed a crash that happens when screenshots fails to upload to blob service. 
+* Fixed an issue where Griffon floating button disappears during orientation change.
+
+## May 22, 2020
+
+### Android Griffon 1.1.6
+
+* Changes to support Griffon on Xamarin and Unity.
+* Griffon extension is optimized to unregister itself, when it does not obtain session's deeplink URL within 5 seconds of app launch.
+* Fixed a bug where user is not able to disconnect when griffon attempts to reconnect with expired socket URL.
+* Fixed a bug that prevents pinpad screen from closing when Mobile SDK is not configured.
+* Improved logging
+
 ## May 19, 2020
 
 ### iOS Media 2.0.0
